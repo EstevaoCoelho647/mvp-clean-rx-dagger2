@@ -45,6 +45,6 @@ Kotlin.
 * Codifique como você gostaria de trabalhar.
 
 ## ScreenShots
-
-
-
+![Scheme](images/issue_list.png)
+![Scheme](images/issue_detail.png)
+![Scheme](images/issue_web_view.png)
