@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">base</string>
+    <string name="issue_state_closed">CLOSED</string>
+    <string name="issue_state_open">OPEN</string>
+</resources>

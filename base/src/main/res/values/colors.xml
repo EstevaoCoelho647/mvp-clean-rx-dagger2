@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#333333</color>
+    <color name="primaryLightColor">#333333</color>
+    <color name="primaryDarkColor">#222222</color>
+    <color name="gitBlack">#333333</color>
+    <color name="gitBackground">#323232</color>
+    <color name="accentColor">#ffffff</color>
+    <color name="textGrey">#586069</color>
+    <color name="color_white">#ffffff</color>
+    <color name="placeHolderBackground">#11777777</color>
+
+    <color name="openIssueColor">#6cc644</color>
+    <color name="closedIssueColor">#bd2c00</color>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Git issues</string>
+    <string name="issue_number">#%1$d</string>
+    <string name="creation_date_format">Create date: %1$s</string>
+    <string name="view_more">View more</string>
+    <string name="message_activity_main_request_error">Was not possible get issues items</string>
+</resources>
