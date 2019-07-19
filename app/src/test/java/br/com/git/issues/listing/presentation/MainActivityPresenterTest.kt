@@ -115,11 +115,9 @@ class MainActivityPresenterTest {
         Mockito.`when`(interactor.getIssueList(2, IssueState.ALL.value))
             .thenReturn(response)
 
-
         presenter.onRecyclerScrolledToBottom(8, 10)
 
         Mockito.verify(interactor, times(1)).getIssueList(2, IssueState.ALL.value)
-
     }
 
     @Test

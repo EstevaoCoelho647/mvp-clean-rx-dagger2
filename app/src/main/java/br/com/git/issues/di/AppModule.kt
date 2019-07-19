@@ -12,7 +12,6 @@ import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 import javax.inject.Named
 
-
 @Module(includes = [(InnerAppModule::class), (NetworkModule::class)])
 abstract class AppModule {
     @Binds

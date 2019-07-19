@@ -26,7 +26,6 @@ class MainActivityPresenter @Inject constructor(
 
     override fun attachView() {
         view.initRecyclerView()
-        view.showShimmerEffect()
         getIssues(issuesPage)
     }
 

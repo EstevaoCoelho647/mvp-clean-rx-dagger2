@@ -6,18 +6,6 @@
         android:layout_height="match_parent"
         tools:context=".listing.presentation.MainActivity">
 
-    <com.facebook.shimmer.ShimmerFrameLayout
-            android:id="@+id/shimmerLayoutMainActivityPlaceHolder"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-        <include layout="@layout/list_place_holder_view" />
-
-    </com.facebook.shimmer.ShimmerFrameLayout>
-
     <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerViewMainActivityIssues"
             android:layout_width="match_parent"
@@ -29,14 +17,20 @@
             tools:itemCount="13"
             tools:listitem="@layout/recycler_view_issue_item" />
 
+<include layout="@layout/activity_issue_view"
+    <androidx.constraintlayout.helper.widget.Layer
+            android:layout_width="match_parent"
+            app:constraint_referenced_ids="@"
+            android:layout_height="match_parent" />
+
     <TextView
             android:id="@+id/textViewMainActivityRequestMessage"
             android:layout_width="match_parent"
-            android:visibility="invisible"
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/message_activity_main_request_error"
             android:textSize="18sp"
+            android:visibility="invisible"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

@@ -18,7 +18,6 @@ interface MainActivityContract {
         fun showIssueList(issueList: List<Issue>)
         fun showRequestError()
         fun initRecyclerView()
-        fun showShimmerEffect()
     }
 
     interface IInteractor {

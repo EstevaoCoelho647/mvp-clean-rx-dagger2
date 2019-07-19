@@ -66,13 +66,8 @@ class MainActivity : BaseActivity(), MainActivityContract.IView {
             })
     }
 
-    override fun showShimmerEffect() {
-        shimmerLayoutMainActivityPlaceHolder.startShimmerAnimation()
-    }
 
     override fun hideLoading() {
-        shimmerLayoutMainActivityPlaceHolder.stopShimmerAnimation()
-        shimmerLayoutMainActivityPlaceHolder.visibility = View.GONE
     }
 
     override fun showIssueList(issueList: List<Issue>) {
